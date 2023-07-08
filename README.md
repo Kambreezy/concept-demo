@@ -15,6 +15,6 @@ Map desired port to 3000, run and start the container
 ```sh
 docker run -p 80:3000 dashboard:v1 
 docker ps
-docker start dashboard:v1
+docker start <CONTAINER ID>
 ```
 
